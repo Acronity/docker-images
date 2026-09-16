@@ -1,2 +1,2 @@
-# pelican-eggs
-Pelican eggs for services people won't make eggs for
+# docker-images
+Docker images custom-made for our deployment
