@@ -28,5 +28,6 @@ jobs:
         with:
           context: ./laravel-pg
           push: true
-          platforms: linux/amd64
+          provenance: false
+     #     platforms: linux/amd64
           tags: ghcr.io/${{ steps.a.outputs.a }}:laravel-pg
