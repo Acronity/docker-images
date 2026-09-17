@@ -25,7 +25,7 @@ jobs:
       - name: Make repository name lowercase
         id: a
         run: echo "a=${GITHUB_REPOSITORY,,}" >> $GITHUB_OUTPUT
-      - name: Build & Push
+      - name: Build and Push
         uses: docker/build-push-action@v7
         with:
           context: ./laravel-pg
